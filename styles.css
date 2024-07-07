@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #3B4664;
+    box-sizing: border-box;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 50vh;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.topic {
+    font-family: Inter;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.entries>p {
+    line-height: 12vh;
+    width: 100%;
+    background-color: #181F32;
+    margin-top: 1vh;
+    border-radius: 0.7vw;
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 4vh;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.keypad {
+    margin-top: 3vh;
+    background-color: #252D44;
+    height: 45vh;
+    width: 100%;
+    border-radius: 1vw;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    font-family: Inter;
+    text-align: center;
+    font-weight: 800;
+    color: #3B4664;
+    font-size: larger;
+    border-radius: 0.5vw;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonsArea {
+    height: 36vh;
+    width: 85%;
+    display: flex;
+    margin: auto;
+    margin-top: 4.5vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    line-height: 5vh;
+    width: 4vw;
+    background-color: #EAE3DB;
+    border-radius: 0.3vw;
+}
+
+.specialbtns {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn1 {
+    line-height: 5.5vh;
+    background-color: #647299;
+    width: 47%;
+    border-radius: 0.3vw;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.btn2 {
+    line-height: 5.5vh;
+    background-color: #D13F30;
+    width: 47%;
+    border-radius: 0.3vw;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.del {
+    background-color: #647299;
+    color: #FFFFFF;
+    font-size: medium;
+}
