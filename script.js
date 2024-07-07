@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     equalButton.addEventListener("click", () => {
         try {
-            // Only evaluate if the expression is valid
             if (isValidExpression(display.innerText)) {
                 display.innerText = eval(display.innerText.replace(/x/g, '*').replace(/÷/g, '/'));
             } else {
@@ -39,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function isValidExpression(expression) {
-        // Regular expression to check for a valid arithmetic expression
         const validRegex = /^[0-9+\-*/.()]*$/;
         return validRegex.test(expression);
     }

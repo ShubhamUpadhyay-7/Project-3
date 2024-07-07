@@ -77,6 +77,13 @@ body {
     border-radius: 0.3vw;
 }
 
+.btn {
+    line-height: 5vh;
+    width: 4vw;
+    background-color: #EAE3DB;
+    border-radius: 0.3vw;
+}
+
 .specialbtns {
     display: flex;
     flex-direction: row;
