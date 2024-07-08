@@ -27,8 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     equalButton.addEventListener("click", () => {
         try {
-            if (isValidExpression(display.innerText)) {
-                display.innerText = eval(display.innerText.replace(/x/g, '*').replace(/÷/g, '/'));
+            const expression = display.innerText.replace(/x/g, '*').replace(/÷/g, '/');
+            if (isValidExpression(expression)) {
+                display.innerText = eval(expression);
             } else {
                 display.innerText = "Error";
             }
